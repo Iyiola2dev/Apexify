@@ -1,0 +1,35 @@
+.spa2{
+    border: 2px solid #6cc800;
+    padding: 6px;
+    margin: 2px;
+    
+}
+.btn{
+    border: 2px solid #6cc800;
+    padding: 0 5px;
+    margin: 3px 3px;
+   
+    
+}
+
+.sidebar{
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: ;
+    width: 100px;
+    z-index: 999;
+    /* background-color: #ffffff3d; */
+    backdrop-filter: blur(10px);
+    box-shadow: -10px 0 10px rgba( 0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.sidebar a{
+    width:100%;
+}
+.ourVision{
+    border-bottom: 2px solid #6cc800;
+}
